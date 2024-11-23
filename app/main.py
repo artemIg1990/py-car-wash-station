@@ -34,8 +34,3 @@ class CarWashStation:
         rate_sum = (self.average_rating * self.count_of_ratings) + rating
         self.count_of_ratings += 1
         self.average_rating = round(rate_sum / self.count_of_ratings, 1)
-
-
-bmw = Car(comfort_class=3, clean_mark=3, brand='BMW')
-print(type(bmw))
-print(type(2))
